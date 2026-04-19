@@ -306,6 +306,7 @@ function Overview(props) {
   var onExport = props.onExport;
   var onImport = props.onImport;
   var fileRef = props.fileRef;
+  var saveStatus = props.saveStatus;
 
   var now = new Date();
   var currentYear = now.getFullYear();
